@@ -1,0 +1,74 @@
+body {
+	font-family: "Outfit", sans-serif;
+	background-color: #f8f9fa;
+}
+
+.navbar {
+	background: linear-gradient(90deg, #343a40, #495057);
+}
+
+.navbar-brand,
+.nav-link {
+	color: #fff !important;
+}
+
+header {
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+		url("https://images.unsplash.com/photo-1509395176047-4a66953fd231")
+			center/cover no-repeat;
+	color: white;
+	padding: 6rem 2rem;
+	text-align: center;
+}
+
+header h1 {
+	font-size: 3rem;
+	font-weight: 700;
+}
+
+.section-title {
+	font-weight: 600;
+	color: #495057;
+	margin-top: 2rem;
+}
+
+.card {
+	border: none;
+	border-radius: 1rem;
+	overflow: hidden;
+	background-color: #ffffff;
+	box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+	transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.card:hover {
+	transform: translateY(-10px);
+	box-shadow: 0 10px 24px rgba(0, 0, 0, 0.3);
+}
+
+.card-title {
+	color: #0d6efd;
+}
+
+.btn-custom {
+	background: linear-gradient(to right, #0066ff, #3399ff);
+	color: #fff;
+	border: none;
+}
+
+.btn-custom:hover {
+	background: linear-gradient(to right, #0040cc, #0073e6);
+}
+
+footer {
+	background-color: #343a40;
+	color: #ffffff;
+	text-align: center;
+	padding: 1rem;
+}
+
+.social-icons a {
+	margin: 0 0.5rem;
+	color: white;
+	font-size: 1.2rem;
+}
