@@ -34,11 +34,18 @@ header h1 {
 
 .card {
 	border: none;
-	border-radius: 1rem;
 	overflow: hidden;
 	background-color: #ffffff;
 	box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
 	transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.card-img-top {
+	height: 20rem;
+	object-fit:contain;
+	background-position: center;
+	padding-top: 2rem;
+	justify-content: center;
 }
 
 .card:hover {
@@ -54,6 +61,7 @@ header h1 {
 	background: linear-gradient(to right, #0066ff, #3399ff);
 	color: #fff;
 	border: none;
+	
 }
 
 .btn-custom:hover {
