@@ -36,6 +36,13 @@ header h1 {
 	margin-top: 2rem;
 }
 
+.btn-custom {
+	background: linear-gradient(to right, #0066ff, #3399ff);
+	color: #fff;
+	border: none;
+	
+}
+
 footer {
 	color: #ffffff;
 	text-align: center;
