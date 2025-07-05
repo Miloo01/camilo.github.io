@@ -69,7 +69,7 @@ header h1 {
 }
 
 footer {
-	background-color: #343a40;
+	background: linear-gradient(90deg, #343a40, #495057);
 	color: #ffffff;
 	text-align: center;
 	padding: 1rem;

@@ -1,78 +1,15 @@
-body {
-	font-family: "Outfit", sans-serif;
-	background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
-	color: #f8f9fa;
-}
-
-.navbar {
-	background-color: #000;
-}
-
-.navbar-brand,
-.nav-link {
-	color: #f8f9fa !important;
-}
-
-header {
-	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-	url("../")center/cover no-repeat;
-	color: white;
-	padding: 6rem 2rem;
-	text-align: center;
-	height: 600px;
-}
-
-header h1 {
-	font-size: 3rem;
-	font-weight: 700;
-}
-
-.section-title {
-	font-weight: 600;
-	color: #66b2ff;
-	margin-top: 2rem;
-}
-
-.card {
-	background: #1a1a1a;
-	color: #fff;
-	border-radius: 1rem;
-	padding: 1rem;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-}
-
-footer {
-	background-color: #000;
-	color: #aaa;
-	text-align: center;
-	padding: 1rem;
-}
-
-.social-icons a {
-	margin: 0 0.5rem;
-	color: white;
-	font-size: 1.2rem;
-}
-
-.btn-dark {
-	background: linear-gradient(to right, #0066ff, #3399ff);
-	border: none;
-	color: white;
-}
-
-.btn-dark:hover {
-	background: linear-gradient(to right, #0040cc, #0073e6);
-}
-
 /* CSS de index.html */
 
 body {
 	font-family: "Outfit", sans-serif;
 	background-color: #f8f9fa;
+	background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+	color: white;
 }
 
 .navbar {
 	background: linear-gradient(90deg, #343a40, #495057);
+	
 }
 
 .navbar-brand,
@@ -86,6 +23,7 @@ header {
 	color: white;
 	padding: 6rem 2rem;
 	text-align: center;
+	height: 600px;
 }
 
 header h1 {
@@ -99,10 +37,10 @@ header h1 {
 }
 
 footer {
-	background-color: #343a40;
 	color: #ffffff;
 	text-align: center;
 	padding: 1rem;
+	background: linear-gradient(90deg, #343a40, #495057);
 }
 
 .social-icons a {
