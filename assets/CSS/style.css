@@ -5,6 +5,7 @@ body {
 	background-color: #f8f9fa;
 	background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
 	color: white;
+	filter: drop-shadow(5px 5px 10px rgba(10, 17, 218, 0.2));
 }
 
 .navbar {
